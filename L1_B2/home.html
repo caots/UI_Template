@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+        integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+
+<body>
+    <!-- navigation-bar -->
+    <nav class="navbar ">
+        <div class="container">
+            <a href="" class="logo">
+                <img src="./img/logo.png" alt="">
+            </a>
+            <span style="font-size:30px;cursor:pointer;color:red" onclick="openNav()" class="hide-nav">&#9776;</span>
+            <div class="menu-child ">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a href="" style="color: red;" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Service
+                            <!-- <i class="fas fa-caret-down"></i> -->
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- menu hide -->
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#">Devzone</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Projects</a>
+        <a href="#">Contact</a>
+    </div>
+
+    <section class="wrapper-banner">
+        <div class="banner-fixed">
+            <div class="swiper-container swiper-container-banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" style="background-image: url(./img/bg_1.jpg); height: 691px;">
+                        <div class="left-banner">
+                            <h2 class="title">
+                                We Create Modern & Minimal Website
+                            </h2>
+                            <p class="subtitle">
+                                A small river named Duden flows by their place and supplies it with the necessary
+                                regelialia.
+                            </p>
+                            <p class="btn-enter">
+                                Start Projects
+                            </p>
+                        </div>
+                        <div class="right-banner">
+                            <h4 id="year-counter">0</h4>
+                            <p>Homan resource</p>
+                        </div>
+
+                    </div>
+                    <div class="swiper-slide" style="background-image: url(./img/bg_2.jpg); height: 691px;">
+                        <div class="left-banner">
+                            <h2 class="title">
+                                We Create Modern & Minimal Website
+                            </h2>
+                            <p class="subtitle">
+                                A small river named Duden flows by their place and supplies it with the necessary
+                                regelialia.
+                            </p>
+                            <p class="btn-enter">
+                                Start Projects
+                            </p>
+                        </div>
+                        <div class="right-banner">
+                            <h4 id="project-counter">0</h4>
+                            <p>More than a hundred successful projects</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-us container" data-aos="fade-up" data-aos-delay="100">
+        <h2>ABOUT US</h2>
+        <div class="row content">
+            <div class="col-sm-6 col-md-6 col-lg item-content">
+                <div class="icon">
+                    <img src="./img/icon-uxui.png" alt="">
+                </div>
+                <div class="text">
+                    UI/UX Design
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg item-content">
+                <div class="icon">
+                    <img src="./img/icon-mobile.png" alt="">
+                </div>
+                <div class="text">
+                    Mobile Apps
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg item-content">
+                <div class="icon">
+                    <img src="./img/icon-website.png" alt="">
+                </div>
+                <div class="text">
+                    Web Development
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-6 col-lg item-content">
+                <div class="icon">
+                    <img src="./img/icon-layer.png" alt="">
+                </div>
+                <div class="text">
+                    Product Design
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg item-content">
+                <div class="icon">
+                    <img src="./img/icon-seo.png" alt="">
+                </div>
+                <div class="text">
+                    SEO
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin: 50px 0;">
+            <div class="col-md-8">
+                <div class="row post">
+                    <div class="col-md-12 col-lg-6 order-lg-last img-about">
+                    </div>
+                    <div class="col-md-12 col-lg-6 content-about">
+                        <h3>
+                            Welcome to Devzone A Personal Porfolio Web Agency
+                        </h3>
+                        <p class="text">
+                            Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+                            ocean. A small river named Duden flows by their place and supplies it with the necessary
+                            regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your
+                            mouth.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 right-post">
+                <div class="wrapper">
+                    <div class="text">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics,
+                        a large language ocean. A small river named Duden flows by their place and supplies it with the
+                        necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly
+                        into your mouth.
+                    </div>
+                    <p>
+                        <a href="">View all projects</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="margin: 50px 0;">
+            <div class="col-md-4 col-sm-12">
+                <div class="d-flex service-info">
+                    <span>01</span>
+                    <div class="text">
+                        <h3>Search Engine Optimization</h3>
+                        <p>Far far away, behind the word mountains</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="d-flex service-info">
+                    <span>02</span>
+                    <div class="text">
+                        <h3>Web Development Optimization</h3>
+                        <p>Far far away, behind the word mountains</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="d-flex service-info">
+                    <span>03</span>
+                    <div class="text">
+                        <h3>Internet Of Thing</h3>
+                        <p>Far far away, behind the word mountains</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="our-work">
+        <h2 class="title">OUR WORKS</h2>
+        <div class="container" style="margin-bottom: 50px;">
+            <div class="row no-gutters">
+                <div class="col-md-12 box-work mt-0">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-5 img" style=" background-image: url(./img/work-1.jpg);"></div>
+                        <div class="col-md-7 box-content-work" data-aos="fade-up" data-aos-delay="100">
+                            <span class="subheading">Web Design</span>
+                            <h2 class="mb-2">
+                                Cassette tape
+                            </h2>
+                            <p class="description">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <div class="icon d-flex align-items-centerr">
+                                <div class="img-icon">
+                                    <img src="./img/person_1.jpg" alt="">
+                                </div>
+                                <div class="text-icon">
+                                    <h4>Cao tran</h4>
+                                    <span>devzone.com</span>
+                                </div>
+
+                            </div>
+
+                            <p class="btn-work">
+                                View about work
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-12 box-work mt-0">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-5 order-md-last img" style=" background-image: url(./img/work-2.jpg);"></div>
+                        <div class="col-md-7 box-content-work" data-aos="fade-up" data-aos-delay="100"
+                            style="align-items: flex-end;">
+                            <span class="subheading">Web Design</span>
+                            <h2 class="mb-2">
+                                Cassette tape
+                            </h2>
+                            <p class="description" style="text-align: right;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <div class="icon d-flex align-items-centerr">
+                                <div class="img-icon">
+                                    <img src="./img/person_1.jpg" alt="">
+                                </div>
+                                <div class="text-icon">
+                                    <h4>Cao tran</h4>
+                                    <span>devzone.com</span>
+                                </div>
+
+                            </div>
+                            <p class="btn-work">
+                                View about work
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-12 box-work mt-0">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-5 img" style=" background-image: url(./img/work-3.jpg);"></div>
+                        <div class="col-md-7 box-content-work" data-aos="fade-up" data-aos-delay="100">
+                            <span class="subheading">Web Design</span>
+                            <h2 class="mb-2">
+                                Cassette tape
+                            </h2>
+                            <p class="description">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <div class="icon d-flex align-items-centerr">
+                                <div class="img-icon">
+                                    <img src="./img/person_1.jpg" alt="">
+                                </div>
+                                <div class="text-icon">
+                                    <h4>Cao tran</h4>
+                                    <span>devzone.com</span>
+                                </div>
+
+                            </div>
+
+                            <p class="btn-work">
+                                View about work
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col-md-12 box-work mt-0">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col-md-5 order-md-last img" style=" background-image: url(./img/work-4.jpg);"></div>
+                        <div class="col-md-7 box-content-work" data-aos="fade-up" data-aos-delay="100"
+                            style="align-items: flex-end;">
+                            <span class="subheading">Web Design</span>
+                            <h2 class="mb-2">
+                                Cassette tape
+                            </h2>
+                            <p class="description" style="text-align: right;">
+                                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,
+                                there live the blind texts.
+                            </p>
+                            <div class="icon d-flex align-items-centerr">
+                                <div class="img-icon">
+                                    <img src="./img/person_1.jpg" alt="">
+                                </div>
+                                <div class="text-icon">
+                                    <h4>Cao tran</h4>
+                                    <span>devzone.com</span>
+                                </div>
+
+                            </div>
+                            <p class="btn-work">
+                                View about work
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="work-end"></div>
+    </section>
+
+    <section class="say-about">
+        <h2 class="title">CLIENTS SAYS ABOUT US?</h2>
+        <div class="container">
+            <div class="swiper-container-sayabout swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <div class="text">
+                                <i class="far fa-comment"></i>
+                                <p class="mb-4">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div class="d-flex align-items-center customer">
+                                    <div class="img-user">
+                                        <img src="./img/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <div class="name">Cao Tran</div>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <div class="text">
+                                <i class="far fa-comment"></i>
+                                <p class="mb-4">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div class="d-flex align-items-center customer">
+                                    <div class="img-user">
+                                        <img src="./img/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <div class="name">Cao Tran</div>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <div class="text">
+                                <i class="far fa-comment"></i>
+                                <p class="mb-4">
+                                    Far far away, behind the word mountains, far from the countries Vokalia and
+                                    Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div class="d-flex align-items-center customer">
+                                    <div class="img-user">
+                                        <img src="./img/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <div class="name">Cao Tran</div>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <div class="text">
+                                <i class="far fa-comment"></i>
+                                <p class="mb-4">
+                                    Far far away, behind the word mountains, far from the countries Vokalia
+                                    and Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div class="d-flex align-items-center customer">
+                                    <div class="img-user">
+                                        <img src="./img/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <div class="name">Cao Tran</div>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <div class="text">
+                                <i class="far fa-comment"></i>
+                                <p class="mb-4">
+                                    Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div class="d-flex align-items-center customer">
+                                    <div class="img-user">
+                                        <img src="./img/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <div class="name">Cao Tran</div>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="content">
+                            <div class="text">
+                                <i class="far fa-comment"></i>
+                                <p class="mb-4">
+                                    Far far away, behind the word mountains, far from the countries
+                                    Vokalia and Consonantia,
+                                    there live the blind texts.
+                                </p>
+                                <div class="d-flex align-items-center customer">
+                                    <div class="img-user">
+                                        <img src="./img/person_1.jpg" alt="">
+                                    </div>
+                                    <div class="pl-3">
+                                        <div class="name">Cao Tran</div>
+                                        <span class="position">Marketing Manager</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add Pagination -->
+                <div class="swiper-pagination-sayabout"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="other">
+        <div class="wrapper-other container">
+            <p class="subtext">Get Started</p>
+            <p class="text">
+                Fill in the brief and get the project estimate
+            </p>
+            <div class="description">
+                Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
+                blind texts.
+            </div>
+            <p class="btn-other">
+                Get Started
+            </p>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg footer-box box-1">
+                    <h5>Devzone</h5>
+                    <div class="text">
+                        Far far away, behind the word mountains, far from the countries.
+                    </div>
+                    <div class="d-flex btn-socail">
+                        <div class="icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </div>
+                        <div class="icon" style="margin: 0 10px;">
+                            <i class="fab fa-youtube"></i>
+                        </div>
+                        <div class="icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg footer-box">
+                    <h5>Community</h5>
+                    <ul class="ul-footer">
+                        <li class="li-footer"><i class="fas fa-chevron-right"></i> Projects</li>
+                        <li class="li-footer"> <i class="fas fa-chevron-right"></i> Team</li>
+                        <li class="li-footer"><i class="fas fa-chevron-right"></i> Review</li>
+                        <li class="li-footer"> <i class="fas fa-chevron-right"></i> FQAS</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg footer-box">
+                    <h5>About Us</h5>
+                    <ul class="ul-footer">
+                        <li class="li-footer"><i class="fas fa-chevron-right"></i> Our Story</li>
+                        <li class="li-footer"> <i class="fas fa-chevron-right"></i> Meet the Team</li>
+                        <li class="li-footer"><i class="fas fa-chevron-right"></i> Careers</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg  footer-box">
+                    <h5>Company</h5>
+                    <ul class="ul-footer">
+                        <li class="li-footer"><i class="fas fa-chevron-right"></i> About us</li>
+                        <li class="li-footer"> <i class="fas fa-chevron-right"></i> Press</li>
+                        <li class="li-footer"><i class="fas fa-chevron-right"></i> Contact</li>
+                        <li class="li-footer"> <i class="fas fa-chevron-right"></i> Careers</li>
+                    </ul>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg footer-box">
+                    <h5>Have a Question?</h5>
+                    <ul class="ul-footer">
+                        <li class="li-footer"><i class="fas fa-map-marker-alt"></i>   số 42 ngõ 15 - Tạ Quang Bửu - HN</li>
+                        <li class="li-footer"> <i class="fas fa-phone-volume"></i> +84 987393226</li>
+                        <li class="li-footer"><i class="fas fa-envelope"></i> contact@devzone.vn</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <p class="end-footer">2020-09-10 realse | Made Website By Devzone team Web Cloud ❤️</p>
+
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.8.2/countUp.min.js'></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./home.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container-banner', {
+            spaceBetween: 30,
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+        });
+        var swiper2 = new Swiper('.swiper-container-sayabout', {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            freeMode: true,
+            pagination: {
+                el: '.swiper-pagination-sayabout',
+                clickable: true,
+            },
+            centeredSlides: true,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            breakpoints: {
+                '@0.00': {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                '@0.75': {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                '@1.00': {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                '@1.50': {
+                    slidesPerView: 3,
+                    spaceBetween: 40,
+                },
+            }
+        });
+    </script>
+
+
+</body>
+
+</html>
